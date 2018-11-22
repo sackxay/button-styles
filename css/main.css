@@ -8,23 +8,11 @@ html {
 }
 
 div {
-  padding: .5rem;
+  padding: .45em;
   text-align: center;
 }
 
-body {
-
-}
-
-div {
-  padding: .525em .8em;
-  text-align: center;
-}
-
-.btn {
-  font-size: 1.125rem;
-  color: white;
-  background-color: #333;
+div > a {
   padding: .525em .8em;
   border-radius: 8px;
   display: inline-block;
@@ -33,51 +21,53 @@ div {
   border-width: inherit;
 }
 
+.ghost-border {
+  border-radius: 8px;
+  border: 3px solid black;
+}
+
+.btn {
+  font-size: 1.125rem;
+  color: white;
+  display: inline-block;
+  background-color: #333;
+}
+
 .btn-small {
   font-size: .875rem;
 }
 
 .btn-big {
-  color: green;
-  background-color: #fff;
-  padding: 1em;
-  border-radius: 10px;
-  display: inline-block;
-  border: 2em;
-  text-decoration: none;
   font-size: 1.5rem;
 }
 
 .btn-subtle {
   color: white;
   background-color: #ccc;
-  padding: .725em 1.3em;
-  border-radius: 8px;
-  display: inline-block;
-  border: none;
-  text-decoration: none;
 }
 
 .btn-ghost {
   color: black;
   background-color: #fff;
-  padding: .48em .95em;
-  border-radius: 8px;
-  display: inline-block;
-  border: 3px solid black;
-  text-decoration: none;
 }
 
 .btn-warning {
   color: white;
   background-color: #f33;
-  padding: .5em 1em;
-  border-radius: 8px;
-  display: inline-block;
-  border: solid;
-  text-decoration: none;
 }
 
 .btn:hover {
+  background-color: #000;
+}
 
+.btn-subtle:hover {
+  background-color: #666;
+}
+
+.btn-ghost:hover {
+  background-color: #666;
+}
+
+.btn-warning:hover {
+  background-color: #933;
 }
